@@ -42,6 +42,7 @@ Connect To HTTPS Host
 
 ```
 python3 merge_utxo.py -o https://btm:8443 --cert=client.pem --key=client.key --ca=ca.pem -l
+python3 merge_utxo.py -o https://btm:8443 --cert=client.pem --key=client.key --ca=ca.pem -m 1,3,5 -y -a bm1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -p yourpasswordhere
 ```
 
 Interactive
